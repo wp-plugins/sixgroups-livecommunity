@@ -6,17 +6,15 @@ Requires at least: 2.3
 Tested up to: 2.6
 Stable tag: 0.2
 
-sixgroups' livecommunity plugin for wordpress.
+to pimp your blog with a sixgroups livecommunity 
 
 == Description ==
 
-[SixGroups' livecommunity](http://www.sixgroups.com/ "livecommunity")
-for WordPress is a Plugin to
-implement your livecommunity without template editing.
+Pimp your blog with a [SixGroups' livecommunity](http://www.sixgroups.com/ "livecommunity").
 All you need to do is copy the plugin to your 
 WordPress blog installation, activate it and 
 paste the Livecommunity code into the textarea. 
-That’s it.
+That’s it. No more template editing needed!
 
 == Installation ==
 
