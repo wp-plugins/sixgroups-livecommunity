@@ -3,7 +3,7 @@
 Plugin Name: SixGroups Live Community
 Plugin URI: http://notizBlog.org
 Description: <a href="http://sixgroups.com">sixgroups' livecommunity</a> plugin for wordpress.
-Version: 0.1
+Version: 0.2
 Author: Matthias Pfefferle
 Author URI: http://pfefferle.org/
 */
