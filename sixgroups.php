@@ -3,7 +3,7 @@
 Plugin Name: SixGroups Live Community
 Plugin URI: http://notizBlog.org
 Description: <a href="http://sixgroups.com">sixgroups' livecommunity</a> plugin for wordpress.
-Version: 0.2
+Version: 0.2.1
 Author: Matthias Pfefferle
 Author URI: http://pfefferle.org/
 */
@@ -20,11 +20,11 @@ class SixgroupsLiveCommunity {
 	function showCommunity() {
     echo stripslashes(get_option('livecommunity_code'));
 	}
-	
+
 	function adminMenu() {
 	  add_options_page(
 	    __('Sixgroups Livecommunity Options'),
-	    __('Sixgroups Livecommunity'), 5, basename(__FILE__));
+	    __('Sixgroups Livecommunity'), 5, __FILE__);
   }
 
   function optionsPage() {
@@ -47,7 +47,7 @@ class SixgroupsLiveCommunity {
   <input type="hidden" name="action" value="update" />
 
   <textarea name="livecommunity_code" id="livecommunity_code" cols="100" rows="10"><?php echo stripslashes(get_option('livecommunity_code')); ?></textarea>
-  
+
   <p class="submit">
     <input type="submit" name="Submit" value="<?php _e('Update Options') ?> &raquo;" />
   </p>
